@@ -5,14 +5,16 @@ html {
 }
 body {
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 8vh;
   background-color: transparent !important;
   font-family: 'Open Sans', sans-serif !important;
-  color: #DADFF7 !important;
+  color: #9EC5AB !important;
 }
 
 a {
   color: #E0E4F8 !important;
+  padding-top: 5vh;
+  font-size: 1.3em;
 }
 
 h1 {
@@ -27,7 +29,7 @@ li {
 
 .projectBox {
   background-color: #823200;
-  height: 20vh;
+  height: 18vh;
   margin: 5px;
 }
 
@@ -36,13 +38,15 @@ li {
 }
 
 .titleBlock {
-  position: relative;
   left: 5px;
-  margin-bottom: 8vh;
-  min-width: 200px !important;
-  background-color: #3C7731;
+  min-height: 20vh !important;
+  margin-bottom: 6vh;
+  background-color: #347229;
 }
 
 .linkBlock {
-  margin-top: 10vh
+  left: 5px;
+  height: 12vh !important;
+  margin-top: 8vh;
+  background-color: #295F5A;
 }
