@@ -1,7 +1,7 @@
 body {
   text-align: center;
   padding-top: 20vh;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #eee;
   background-color: #1e1e1e;
@@ -11,10 +11,16 @@ a {
   color: #00B7FF;
 }
 
+li {
+  list-style: none;
+  text-align: left;
+  padding-left: 33%;
+}
+
 .titleBlock {
 
 }
 
 .linkBlock {
-
+  
 }
