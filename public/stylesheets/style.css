@@ -1,20 +1,22 @@
+
 html {
-  border: 1px red solid;
   min-height: 100vh;
   background-color: #232C33;
 }
-
 body {
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 10vh;
   background-color: transparent !important;
   font-family: 'Open Sans', sans-serif !important;
   color: #DADFF7 !important;
 }
 
+a {
+  color: #E0E4F8 !important;
+}
+
 h1 {
   font-family: 'Raleway', sans-serif !important;
-  /*color: green !important;*/
 }
 
 li {
@@ -23,10 +25,18 @@ li {
   padding-left: 33%;
 }
 
+.projectBox {
+  background-color: #823200;
+  height: 20vh;
+  margin: 5px;
+}
+
 .titleBlock {
+  display: inline-block;
   margin-bottom: 10vh;
+  min-width: 200px !important;
 }
 
 .linkBlock {
-
+  margin-top: 10vh
 }
