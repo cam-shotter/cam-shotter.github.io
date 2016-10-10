@@ -1,10 +1,15 @@
+html {
+  border: 1px red solid;
+  min-height: 99.8vh;
+}
+
 body {
   text-align: center;
   padding-top: 20vh;
-  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #eee;
-  background-color: #1e1e1e;
+  background-color: #1f1f1f;
 }
 
 a {
@@ -22,5 +27,5 @@ li {
 }
 
 .linkBlock {
-  
+
 }
