@@ -31,10 +31,16 @@ li {
   margin: 5px;
 }
 
+.projectBox:nth-child(2), .projectBox:nth-child(3) {
+  background-color: #650D1B;
+}
+
 .titleBlock {
-  display: inline-block;
-  margin-bottom: 10vh;
+  position: relative;
+  left: 5px;
+  margin-bottom: 8vh;
   min-width: 200px !important;
+  background-color: #3C7731;
 }
 
 .linkBlock {
