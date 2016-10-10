@@ -1,15 +1,20 @@
 html {
   border: 1px red solid;
-  min-height: 99.8vh;
+  min-height: 100vh;
+  background-color: #232C33;
 }
 
 body {
   text-align: center;
   padding-top: 20vh;
-  font: "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  color: #eee;
-  background-color: #1f1f1f;
+  background-color: transparent !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #DADFF7 !important;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif !important;
+  /*color: green !important;*/
 }
 
 li {
@@ -19,7 +24,7 @@ li {
 }
 
 .titleBlock {
-
+  margin-bottom: 10vh;
 }
 
 .linkBlock {
