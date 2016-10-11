@@ -1,6 +1,5 @@
 html {
   min-height: 100vh;
-  /*background-color: #232C33;*/
   background-color: #1E4642;
 }
 
@@ -9,18 +8,6 @@ body {
   background-color: transparent !important;
   font-family: 'Open Sans', sans-serif !important;
   color: #E0E4F8 !important;
-}
-
-a {
-  color: #E0E4F8 !important;
-  padding-top: 4.7vh;
-  font-size: 1.3em;
-  height: 100%;
-  border-right: 3px #232C33 solid;
-}
-
-a:nth-last-child(1) {
-  border-right: none;
 }
 
 h1 {
@@ -35,24 +22,45 @@ li {
 
 .projectBox {
   background-color: #823200;
-  height: 20vh;
+  height: 22vh;
   border: 3px #232C33 solid;
 }
 
-.projectBox:nth-child(2), .projectBox:nth-child(3), .projectBox:nth-child(5) {
+.projectBox:nth-child(2), .projectBox:nth-child(5) {
   background-color: #650D1B;
+}
+
+.projectBox:nth-child(3) {
+  background-color: #295F5A;
+}
+
+.projectBox:nth-child(6) {
+  background-color: #347229;
 }
 
 .titleBlock {
   min-height: 20vh !important;
-  margin: 0.5vh 0 3vh 0;
+  /*margin: 0.5vh 0 3vh 0;*/
   background-color: #347229;
   border: 3px #232C33 solid;
 }
 
 .linkBlock {
-  height: 12vh !important;
-  margin-top: 4vh;
+  height: 14vh !important;
+  /*margin-top: 4vh;*/
   background-color: #295F5A;
   border: 3px #232C33 solid;
+}
+
+.linkBlock > a {
+  color: #E0E4F8 !important;
+  padding-top: 5.5vh;
+  font-size: 1.3em;
+  height: 100%;
+  border-right: 3px #232C33 solid;
+}
+
+
+.linkBlock > a:nth-last-child(1) {
+  border-right: none;
 }
