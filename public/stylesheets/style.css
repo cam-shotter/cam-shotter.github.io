@@ -16,21 +16,14 @@ h1, h2 {
   font-family: 'Raleway', sans-serif !important;
 }
 
-li {
-  list-style: none;
-  text-align: left;
-  padding-left: 20%;
-  /*font-size: 100% !important;*/
-}
-
-.projectBox > h1 {
-  padding-top: 5vh;
-}
-
 .projectBox {
   background-color: #823200;
   height: 22vh;
   border: 3px #232C33 solid;
+}
+
+.projectBox > h1 {
+  padding-top: 1em;
 }
 
 .projectBox:nth-child(2), .projectBox:nth-child(5) {
@@ -53,52 +46,71 @@ li {
 
 .titleBlock {
   min-height: 20vh !important;
-  /*margin: 0.5vh 0 3vh 0;*/
   background-color: #347229;
   border: 3px #232C33 solid;
 }
 
 .linkBlock {
   height: 14vh !important;
-  /*margin-top: 4vh;*/
   background-color: #295F5A;
   border: 3px #232C33 solid;
+  padding: 0 !important;
 }
 
 .linkBlock > a {
   color: #E0E4F8 !important;
   padding-top: 5.5vh;
-  font-size: 1.3em;
+  font-size: 1.2rem;
   height: 100%;
   border-right: 3px #232C33 solid;
 }
 
-
 .linkBlock > a:nth-last-child(1) {
   border-right: none;
+}
+
+.active {
+  background-color: #FFA500;
 }
 
 @media all and (max-width: 1200px) {
   html {
     font-size: 1.3rem !important;
   }
-  h1, h2 {
+
+  h1 {
     font-size: 1.3rem !important;
   }
+
+  h2, h3 {
+   font-size: 1.1rem !important;
+  }
 }
+
 @media all and (max-width: 992px) {
   html {
+    font-size: 1.5rem !important;
+  }
+
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  h2, h3 {
     font-size: 1.7rem !important;
   }
-  h1, h2 {
-    font-size: 2rem !important;
-  }
 }
+
 @media all and (max-width: 767px) {
   html {
     font-size: 1.5rem !important;
   }
-  h1, h2 {
+
+  h1 {
     font-size: 1.5rem !important;
+  }
+
+  h2, h3 {
+    font-size: 1.3rem !important;
   }
 }
