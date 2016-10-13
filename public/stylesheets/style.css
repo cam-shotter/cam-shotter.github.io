@@ -7,17 +7,17 @@ html {
 body {
   text-align: center;
   background-color: transparent !important;
-  font-family: 'Open Sans', sans-serif !important;
-  color: #E0E4F8 !important;
-  font-size: 100% !important;
-}
-
-h1, h2 {
   font-family: 'Raleway', sans-serif !important;
+  color: #D6F6DD !important;
+  font-size: 100% !important;
 }
 
 p {
   font-size: 0.7rem !important;
+}
+
+a {
+  color: #D6F6DD !important;
 }
 
 .projectBox {
@@ -42,10 +42,14 @@ p {
   background-color: #347229;
 }
 
-.projectContainer {
+.textContainer {
   background-color: #823200;
-  height: 66vh;
+  min-height: 66vh !important;
   border: 3px #232C33 solid;
+}
+
+.textContainer > h3 > a {
+  color: #337ab7 !important;
 }
 
 .titleBlock {
@@ -62,7 +66,6 @@ p {
 }
 
 .linkBlock > a {
-  color: #E0E4F8 !important;
   padding-top: 5.5vh;
   font-size: 1.2rem;
   height: 100%;
@@ -74,7 +77,15 @@ p {
 }
 
 .active {
-  background-color: #FFA500;
+  background-color: #E89600;
+  color: #337ab7 !important;
+  font-weight: 800 !important;
+}
+
+.generalText {
+  text-align: justify;
+  line-height: 125%;
+  padding: 0 2%;
 }
 
 @media all and (max-width: 1200px) {
