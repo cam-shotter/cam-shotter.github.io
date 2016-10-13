@@ -16,6 +16,10 @@ h1, h2 {
   font-family: 'Raleway', sans-serif !important;
 }
 
+p {
+  font-size: 0.7rem !important;
+}
+
 .projectBox {
   background-color: #823200;
   height: 22vh;
@@ -85,6 +89,18 @@ h1, h2 {
   h2, h3 {
    font-size: 1.1rem !important;
   }
+
+  h4 {
+    font-size: 1.1rem !important;
+  }
+
+  p {
+    font-size: 0.7rem !important;
+  }
+
+  .projectBox {
+    height: 22vh;
+  }
 }
 
 @media all and (max-width: 992px) {
@@ -99,6 +115,18 @@ h1, h2 {
   h2, h3 {
     font-size: 1.7rem !important;
   }
+
+  h4 {
+    font-size: 1.4rem !important;
+  }
+
+  p {
+    font-size: 0.7rem !important;
+  }
+
+  .projectBox {
+    height: 28vh;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -112,5 +140,17 @@ h1, h2 {
 
   h2, h3 {
     font-size: 1.3rem !important;
+  }
+
+  h4 {
+    font-size: 1.2rem !important;
+  }
+
+  p {
+    font-size: 0.8rem !important;
+  }
+
+  .projectBox {
+    height: 26vh;
   }
 }
