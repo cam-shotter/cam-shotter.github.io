@@ -63,6 +63,7 @@ a {
   background-color: #295F5A;
   border: 3px #232C33 solid;
   padding: 0 !important;
+  min-width: 200px !important;
 }
 
 .linkBlock > a {
@@ -88,7 +89,7 @@ a {
   padding: 2%;
 }
 
-@media all and (max-width: 1200px) {
+/*@media all and (max-width: 1200px) {
   html {
     font-size: 1.3rem !important;
   }
@@ -164,4 +165,4 @@ a {
   .projectBox {
     height: 26vh;
   }
-}
+}*/
