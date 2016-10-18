@@ -42,6 +42,16 @@ a {
   background-color: #347229;
 }
 
+.projectBox:nth-child(odd) {
+  animation-duration: 2s;
+  animation-name: slideinleft;
+}
+
+.projectBox:nth-child(even) {
+  animation-duration: 2s;
+  animation-name: slideinright;
+}
+
 .textContainer {
   background-color: #823200;
   min-height: 66vh !important;
@@ -56,6 +66,8 @@ a {
   min-height: 20vh !important;
   background-color: #347229;
   border: 3px #232C33 solid;
+  animation-duration: 2s;
+  animation-name: slideindown;
 }
 
 .linkBlock {
@@ -64,6 +76,8 @@ a {
   border: 3px #232C33 solid;
   padding: 0 !important;
   min-width: 200px !important;
+  animation-duration: 2s;
+  animation-name: slideinup;
 }
 
 .linkBlock > a {
@@ -89,80 +103,62 @@ a {
   padding: 2%;
 }
 
-/*@media all and (max-width: 1200px) {
-  html {
-    font-size: 1.3rem !important;
-  }
-
-  h1 {
-    font-size: 1.3rem !important;
-  }
-
-  h2, h3 {
-   font-size: 1.1rem !important;
-  }
-
-  h4 {
-    font-size: 1.1rem !important;
-  }
-
-  p {
-    font-size: 0.7rem !important;
-  }
-
+@media all and (max-width: 1200px) {
   .projectBox {
     height: 22vh;
   }
 }
 
 @media all and (max-width: 992px) {
-  html {
-    font-size: 1.5rem !important;
-  }
-
-  h1 {
-    font-size: 1.8rem !important;
-  }
-
-  h2, h3 {
-    font-size: 1.7rem !important;
-  }
-
-  h4 {
-    font-size: 1.4rem !important;
-  }
-
-  p {
-    font-size: 0.7rem !important;
-  }
-
   .projectBox {
     height: 28vh;
   }
+
 }
 
 @media all and (max-width: 767px) {
-  html {
-    font-size: 1.5rem !important;
-  }
-
-  h1 {
-    font-size: 1.5rem !important;
-  }
-
-  h2, h3 {
-    font-size: 1.3rem !important;
-  }
-
-  h4 {
-    font-size: 1.2rem !important;
-  }
-
-  p {
-    font-size: 0.8rem !important;
-  }
-
   .projectBox {
     height: 26vh;
   }
-}*/
+
+}
+
+@keyframes slideinleft {
+  from {
+    right: 100%;
+  }
+
+  to {
+    right: 0%;
+  }
+}
+
+@keyframes slideinright {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes slideinup {
+  from {
+    bottom: 20vh;
+  }
+
+  to {
+    bottom: 0;
+  }
+}
+
+@keyframes slideindown {
+  from {
+    top: 20vh;
+  }
+
+  to {
+    top: 0;
+  }
+}
