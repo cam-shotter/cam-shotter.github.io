@@ -27,7 +27,7 @@ a {
 }
 
 .projectBox > h1 {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .projectBox:nth-child(2), .projectBox:nth-child(5) {
@@ -35,7 +35,7 @@ a {
 }
 
 .projectBox:nth-child(3) {
-  background-color: #295F5A;
+  background-color: #1E4642;
 }
 
 .projectBox:nth-child(6) {
@@ -50,6 +50,10 @@ a {
 .projectBox:nth-child(even) {
   animation-duration: 2s;
   animation-name: slideinright;
+}
+
+.projectBox:hover {
+  background-color: #295F5A;
 }
 
 .textContainer {
@@ -72,7 +76,7 @@ a {
 
 .linkBlock {
   height: 14vh !important;
-  background-color: #295F5A;
+  background-color: #1E4642;
   border: 3px #232C33 solid;
   padding: 0 !important;
   min-width: 200px !important;
@@ -89,6 +93,10 @@ a {
 
 .linkBlock > a:nth-last-child(1) {
   border-right: none;
+}
+
+.linkBlock > a:hover {
+  background-color: #E89600;
 }
 
 .active {
