@@ -40,7 +40,7 @@ svg.append("g")
   .append("line")
     .attr("y1", "100%");
 
-d3.json("readme.json", function(error, root) {
+d3.json("/javascript/readme.json", function(error, root) {
   if (error) throw error;
 
   partition.nodes(root);
@@ -213,5 +213,3 @@ function stack(i) {
     return tx;
   };
 }
-
-console.log("Here I am");
