@@ -6,45 +6,57 @@
 			"name": "Frameworks",
 			"children": [ {
 				"name": "BootStrap",
-				"size": 3938
+				"size": 300
 			}, {
 				"name": "FlexBox",
-				"size": 3812
+				"size": 200
 			}, {
 				"name": "Skeleton",
-				"size": 3812
+				"size": 100
 			} ]
 		}, {
 			"name": "Preprocessors",
 			"children": [ {
 				"name": "SASS",
-				"size": 3534
+				"size": 100
 			} ]
 		} ]
 	}, {
 		"name": "JavaScript",
 		"children": [ {
 			"name": "ES5",
-			"size": 17010
+			"size": 500
 		}, {
 			"name": "ES6",
-			"size": 5842
+			"size": 600
 		}, {
-			"name": "Node",
-			"size": 5842
+			"name": "Node/NPM",
+			"size": 400
 		}, {
 			"name": "jQuery",
-			"size": 5842
+			"size": 200
 		}, {
 			"name": "Front-End",
 			"children": [ {
 				"name": "Client Side Rendering",
 				"children": [ {
 					"name": "React",
-					"size": 721
+					"size": 300
 				}, {
 					"name": "React Native",
-					"size": 4294
+					"size": 100
+				}, {
+					"name": "Redux",
+					"size": 100
+				}, {
+					"name": "Bundlers",
+					"children": [ {
+						"name": "Browserify/Watchify",
+						"size": 100
+					}, {
+						"name": "Webpack",
+						"size": 100
+					} ]
 				} ]
 			}, {
 				"name": "Server Side Rendering",
@@ -52,27 +64,27 @@
 					"name": "Templating",
 					"children": [ {
 						"name": "Handlebars",
-						"size": 1983
+						"size": 50
+					}, {
+						"name": "Pug",
+						"size": 50
 					} ]
 				} ]
-			}, {
-				"name": "Other",
-				"size": 1375
 			} ]
 		}, {
 			"name": "Back-End",
 			"children": [ {
-				"name": "Server Side Rendering",
+				"name": "Servers",
 				"children": [ {
 					"name": "Express.js",
 					"size": 1000
 				} ]
 			}, {
-				"name": "Client Side Rendering",
-				"size": 2047
+				"name": "Databases",
+				"size": 500
 			}, {
 				"name": "Other",
-				"size": 1375
+				"size": 500
 			} ]
 		} ]
 	} ]

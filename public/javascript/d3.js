@@ -8,7 +8,7 @@ var x = d3.scale.linear()
 var barHeight = 20;
 
 var color = d3.scale.ordinal()
-    .range(["steelblue", "#ccc"]);
+    .range(["#232C33", "#ccc"]);
 
 var duration = 750,
     delay = 25;
@@ -18,9 +18,10 @@ var partition = d3.layout.partition()
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .orient("top");
+    .orient("left");
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("body")
+  .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
