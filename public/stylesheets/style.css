@@ -20,6 +20,13 @@ a {
   color: #D6F6DD !important;
 }
 
+#devQuest:hover {
+  background-image: url(/images/devQuestScreenshot.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 .projectBox {
   display: flex;
   flex-direction: column;
